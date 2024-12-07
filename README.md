@@ -53,25 +53,25 @@ If you don't have concurrently installed, follow these steps:
 
 ##### Navigate to the backend folder:
 
-cd backend
+`bash cd backend`
 
 ##### Install dependencies:
 
-npm install
+`bash npm install`
 
 ##### Copy the environment file:
 
-cp .env.example .env
+`bash cp .env.example .env`
 
 ##### Start the backend services:
 
-docker-compose --env-file .env up -d
+`bash docker-compose --env-file .env up -d`
 
 #### Frontend Setup:
 
 ##### Navigate to the frontend folder:
 
-cd ../frontend
+`bash cd ../frontend`
 
 ##### Install dependencies:
 
@@ -79,4 +79,4 @@ npm install
 
 ##### Start the frontend development server:
 
-npm run dev
+`bash npm run dev`
