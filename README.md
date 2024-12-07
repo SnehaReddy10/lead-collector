@@ -16,8 +16,11 @@ LeadCollector is a comprehensive tool designed to manage and streamline the lead
 ## Project Structure 🏗️
 
 project-root/
+
 ├── backend/ # Backend services and APIs
+
 ├── frontend/ # React frontend for user interface
+
 └── README.md # Project documentation
 
 ---
