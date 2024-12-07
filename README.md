@@ -41,7 +41,7 @@ Ensure you have the following tools installed on your system:
 
 For a quick start, run the following command from the project root:
 
-```bash
+```
 npx concurrently "cd backend && npm install && cp .env.example .env && docker-compose --env-file .env up -d" "cd frontend && npm install && npm run dev"
 ```
 
@@ -53,25 +53,25 @@ If you don't have concurrently installed, follow these steps:
 
 ##### Navigate to the backend folder:
 
-`bash cd backend`
+` cd backend`
 
 ##### Install dependencies:
 
-`bash npm install`
+` npm install`
 
 ##### Copy the environment file:
 
-`bash cp .env.example .env`
+` cp .env.example .env`
 
 ##### Start the backend services:
 
-`bash docker-compose --env-file .env up -d`
+` docker-compose --env-file .env up -d`
 
 #### Frontend Setup:
 
 ##### Navigate to the frontend folder:
 
-`bash cd ../frontend`
+`cd ../frontend`
 
 ##### Install dependencies:
 
@@ -79,4 +79,4 @@ npm install
 
 ##### Start the frontend development server:
 
-`bash npm run dev`
+` npm run dev`
